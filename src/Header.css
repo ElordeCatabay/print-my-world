@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,82,82,1) 0%, rgba(255,159,64,1) 100%);
+    padding: 15px 30px;
+  }
+  
+  .logo img {
+    height: 90px; 
+    width: auto; 
+  }
+  
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    background-color: white;
+    color: #ff5252;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .search-input {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  
+  .fa {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

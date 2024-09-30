@@ -1,0 +1,90 @@
+/* Cart.css */
+
+.cart-container {
+    max-width: 800px; /* Maximum width for the cart */
+    margin: 20px auto; /* Center the cart */
+    padding: 20px; /* Padding around the cart */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .cart-header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 20px; /* Spacing below the header */
+  }
+  
+  .cart-header h1 {
+    font-size: 2rem; /* Larger font size for the header */
+    color: #333; /* Dark color for the header */
+  }
+  
+  .cart-item {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
+    padding: 15px; /* Padding for each cart item */
+    border-bottom: 1px solid #ddd; /* Separator line */
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none; /* Remove separator for the last item */
+  }
+  
+  .cart-item img {
+    width: 50px; /* Fixed size for the product image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+  }
+  
+  .cart-item-details {
+    flex-grow: 1; /* Allow details to take available space */
+    margin-left: 15px; /* Space between image and details */
+  }
+  
+  .cart-item-details h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2rem; /* Font size for product name */
+    color: #555; /* Medium gray for product name */
+  }
+  
+  .cart-item-details p {
+    margin: 5px 0; /* Spacing between paragraphs */
+    color: #777; /* Lighter gray for price */
+  }
+  
+  .cart-footer {
+    display: flex; /* Use flexbox for footer layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Space above the footer */
+  }
+  
+  .total-price {
+    font-size: 1.5rem; /* Larger font size for total price */
+    font-weight: bold; /* Bold for emphasis */
+    color: #333; /* Dark color for price */
+  }
+  
+  .checkout-button {
+    background-color: #28a745; /* Green button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 1rem; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .checkout-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .empty-cart {
+    text-align: center; /* Center text */
+    color: #999; /* Light gray for empty cart message */
+    font-size: 1.2rem; /* Font size for empty message */
+    margin: 20px 0; /* Spacing above and below message */
+  }
+  

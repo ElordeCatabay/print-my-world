@@ -1,0 +1,40 @@
+.categories-container {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly */
+    padding: 20px;
+    background-color: transparent; /* Adjust background as needed */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .category-card {
+    flex: 1; /* Allow cards to grow equally */
+    margin: 0 10px; /* Space between cards */
+    padding: 20px;
+    background: linear-gradient(180deg, #ff7a7a, #ffcccb); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s; /* Smooth scaling effect on hover */
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .category-image {
+    width: 100%; /* Full width */
+    height: 100px; /* Adjust height */
+    background-color: white; /* Placeholder color */
+    border-radius: 10px; /* Rounded corners for image */
+    margin-bottom: 10px; /* Space between image and title */
+  }
+  
+  .category-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Text color */
+    text-align: center; /* Center text */
+  }
+  
